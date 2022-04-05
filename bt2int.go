@@ -14,7 +14,7 @@ type chinhthuc struct { //khai bao 1 du lieu thuoc kieu cau truc
 
 type hopdong struct { //khai bao cau truc
 	luongthang int
-	thuong     int
+	bh         int
 }
 
 func (c chinhthuc) luong() int {
